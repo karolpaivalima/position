@@ -49,8 +49,6 @@ header {
         font-weight: bold;
 
     }
-
-   
 }
 
 main {
@@ -92,6 +90,9 @@ main {
     }
 }
 
+h1{
+    text-align: center;
+   }
 
 
 #relative {

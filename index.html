@@ -42,19 +42,28 @@
             <section id="static">
                 <h2>Position: static</h2>
 
-                <p>Lorem <strong>Position: static</strong>ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
-                    quam exercitationem voluptatem
-                    corrupti recusandae, deleniti voluptate enim aliquid natus illum possimus ea nostrum minima, tempora
-                    magni accusantium provident rerum iste.</p>
+                <p>A propriedade <strong>position: static</strong> é o valor padrão do posicionamento de elementos em
+                    CSS. Quando um
+                    elemento está com position: static, ele é posicionado de acordo com o fluxo normal da página, ou
+                    seja, sua posição é determinada pela ordem em que aparece no código HTML, sem ser afetado pelas
+                    propriedades de deslocamento como top, right, bottom ou left. Esse tipo de posicionamento não cria
+                    um novo contexto de empilhamento nem permite sobreposição de elementos. Em resumo, o static é
+                    utilizado quando não se deseja alterar o comportamento natural de posicionamento de um elemento
+                    dentro do layout da página.</p>
             </section>
 
             <section id="relative">
-                <h2>Position: static</h2>
+                <h2>Position: relative</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse laboriosam officiis,
-                    repellendus
-                    vero ipsam perferendis, optio nam repellat voluptas itaque fuga, laudantium ratione labore
-                    exercitationem nisi? Nihil, voluptates excepturi?</p>
+                <p>A propriedade <strong>position: relative</strong> em CSS permite posicionar um elemento em relação à
+                    sua posição
+                    original no fluxo da página. Quando aplicada, o elemento mantém seu espaço reservado no layout, mas
+                    pode ser deslocado usando as propriedades `top`, `right`, `bottom` e `left`. Por exemplo, `top:
+                    10px` move o elemento 10 pixels para baixo de onde ele normalmente estaria. Além disso, um elemento
+                    com `position: relative` pode servir de referência para elementos com `position: absolute` dentro
+                    dele. Em resumo, esse posicionamento é útil para fazer pequenos ajustes visuais sem alterar o fluxo
+                    natural da página.
+                </p>
 
                 <div>
                     <div class="pink"></div>
@@ -64,12 +73,14 @@
 
             <section id="absolute">
                 <h2>Position: absolute</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sint nulla, veritatis nobis odio
-                    incidunt est sunt quas ea expedita. Molestiae sapiente alias placeat veniam natus quos saepe! A,
-                    vitae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sint nulla, veritatis nobis odio
-                    incidunt est sunt quas ea expedita. Molestiae sapiente alias placeat veniam natus quos saepe! A,
-                    vitae.</p>
+                <p>A propriedade <strong>position: absolute</strong> em CSS é usada para remover um elemento do fluxo
+                    normal da página e
+                    posicioná-lo em relação ao seu primeiro ancestral com position diferente de static (ou em relação ao
+                    corpo do documento, se não houver nenhum). Isso significa que o elemento não ocupa mais espaço no
+                    layout, podendo ser colocado exatamente onde o desenvolvedor quiser, usando as propriedades top,
+                    right, bottom e left. Esse tipo de posicionamento é muito útil para criar layouts complexos,
+                    sobreposições, caixas flutuantes e elementos que precisam ficar fixos em uma área específica da tela
+                    ou de um contêiner.</p>
 
                 <div>
                     <div class="pink"></div>
@@ -79,9 +90,13 @@
 
             <section id="fixed">
                 <h2>Position: fixed</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde itaque asperiores laboriosam et nisi,
-                    libero mollitia praesentium natus consequatur laborum harum vero? Excepturi, officiis? In qui
-                    repellat alias! Ab, perferendis.</p>
+                <p>A propriedade <strong>position: fixed</strong> em CSS fixa um elemento em uma posição específica da janela de
+                    visualização (viewport), independentemente da rolagem da página. Isso significa que, mesmo quando o
+                    usuário rola o conteúdo, o elemento permanece sempre visível no mesmo lugar da tela. Ele é
+                    posicionado usando as propriedades top, right, bottom e left, e é removido do fluxo normal do
+                    documento, não ocupando espaço no layout. Esse tipo de posicionamento é comumente usado para criar
+                    cabeçalhos fixos, barras de navegação, botões de “voltar ao topo” e outros elementos que devem
+                    permanecer acessíveis durante toda a navegação.</p>
             </section>
         </div>
     </main>
