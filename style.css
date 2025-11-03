@@ -14,6 +14,10 @@ body {
     font-size: 1.6rem;
 }
 
+h1{
+    text-align: center;
+   }
+   
 header {
     background: oklch(40.8% 0.153 2.432);
     color: white;
@@ -54,7 +58,7 @@ header {
 main {
     background: pink;
     min-height: calc(100svh - 11.8rem);
-    padding-bottom: 15.8rem;
+    padding-top: 15.8rem;
 
     .main-container {
         max-width: 120rem;
@@ -89,10 +93,6 @@ main {
         }
     }
 }
-
-h1{
-    text-align: center;
-   }
 
 
 #relative {
